@@ -1,0 +1,702 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "title": "标注第一章的五个处理阶段",
+    "reading": "docs/chapter2",
+    "task": "写出每个阶段输入输出，并运行只输出 content 的版本",
+    "recall": "不看笔记解释“标注第一章的五个处理阶段”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "title": "检查 Document",
+    "reading": "docs/chapter2",
+    "task": "加载 Markdown，打印类型、文档数量、正文前100字及metadata",
+    "recall": "不看笔记解释“检查 Document”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "title": "检查 PDF 解析质量",
+    "reading": "docs/chapter2",
+    "task": "对一页PDF比较原文与解析结果，列出两处成功或错误；OCR依赖失败则先分析可提取文本的PDF",
+    "recall": "不看笔记解释“检查 PDF 解析质量”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 4,
+    "week": 1,
+    "title": "比较块大小",
+    "reading": "docs/chapter2",
+    "task": "固定overlap=50，比较size=200/500/1000，记录数量和最大长度",
+    "recall": "不看笔记解释“比较块大小”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 5,
+    "week": 1,
+    "title": "观察重叠",
+    "reading": "docs/chapter2",
+    "task": "固定size=500，比较overlap=0/50/100，找出相邻块实际重复内容",
+    "recall": "不看笔记解释“观察重叠”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 6,
+    "week": 1,
+    "title": "标题分块",
+    "reading": "docs/chapter2",
+    "task": "按Markdown标题分块后再细分，打印保留的标题元数据",
+    "recall": "不看笔记解释“标题分块”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 7,
+    "week": 1,
+    "title": "周复习",
+    "reading": "docs/chapter2",
+    "task": "不看示例重写加载、分块、统计；重做本周一道错题",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 8,
+    "week": 2,
+    "title": "生成向量",
+    "reading": "docs/chapter3",
+    "task": "转换3句话并打印向量维度，说明一个数值不等于一个明确的词义",
+    "recall": "不看笔记解释“生成向量”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 9,
+    "week": 2,
+    "title": "相似度",
+    "reading": "docs/chapter3",
+    "task": "对近义句和无关句比较相似度，记录一次不符合直觉的结果",
+    "recall": "不看笔记解释“相似度”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 10,
+    "week": 2,
+    "title": "内存检索",
+    "reading": "docs/chapter3",
+    "task": "为5条短知识建立向量存储，查询并显示来源",
+    "recall": "不看笔记解释“内存检索”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 11,
+    "week": 2,
+    "title": "比较k",
+    "reading": "docs/chapter3",
+    "task": "同一问题比较k=1/3/5，标出新增证据和无关内容",
+    "recall": "不看笔记解释“比较k”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 12,
+    "week": 2,
+    "title": "来源追溯",
+    "reading": "docs/chapter3",
+    "task": "给每条文档添加source和稳定ID，输出检索结果的ID",
+    "recall": "不看笔记解释“来源追溯”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 13,
+    "week": 2,
+    "title": "建立检索基线",
+    "reading": "docs/chapter3",
+    "task": "写10个问题及证据ID，计算Hit@3：前3条包含任一正确证据的问题数/问题总数",
+    "recall": "不看笔记解释“建立检索基线”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 14,
+    "week": 2,
+    "title": "周复习",
+    "reading": "docs/chapter3",
+    "task": "解释embedding、向量存储和LLM的分工，重做一道错题",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 15,
+    "week": 3,
+    "title": "设计多模态查询",
+    "reading": "docs/chapter3",
+    "task": "选5张图片写文字查询和预期命中图片",
+    "recall": "不看笔记解释“设计多模态查询”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 16,
+    "week": 3,
+    "title": "运行多模态示例",
+    "reading": "docs/chapter3",
+    "task": "用小样本运行并记录命中结果；资源不足先记录输入输出和待运行项",
+    "recall": "不看笔记解释“运行多模态示例”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 17,
+    "week": 3,
+    "title": "连接Milvus",
+    "reading": "docs/chapter3",
+    "task": "记录Docker和服务状态并连接；卡住30分钟记录完整报错并转概念题",
+    "recall": "不看笔记解释“连接Milvus”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 18,
+    "week": 3,
+    "title": "Milvus写入与查询",
+    "reading": "docs/chapter3",
+    "task": "写入少量向量，输出结果ID和距离，并说明距离的含义",
+    "recall": "不看笔记解释“Milvus写入与查询”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 19,
+    "week": 3,
+    "title": "数据生命周期",
+    "reading": "docs/chapter3",
+    "task": "插入查询删除一条测试记录，观察删除前后变化",
+    "recall": "不看笔记解释“数据生命周期”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 20,
+    "week": 3,
+    "title": "索引参数实验",
+    "reading": "docs/chapter3",
+    "task": "固定数据查询集比较两组参数，分别记录耗时和Hit@3",
+    "recall": "不看笔记解释“索引参数实验”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 21,
+    "week": 3,
+    "title": "周复习",
+    "reading": "docs/chapter3",
+    "task": "解释精确与近似检索取舍；未完成的服务部署列为待补，不记成已掌握",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 22,
+    "week": 4,
+    "title": "稀疏与稠密检索",
+    "reading": "docs/chapter4",
+    "task": "固定问题集比较关键词和向量检索；中文关键词检索检查分词",
+    "recall": "不看笔记解释“稀疏与稠密检索”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 23,
+    "week": 4,
+    "title": "混合检索",
+    "reading": "docs/chapter4",
+    "task": "比较融合前后的证据排名，找出一个改善或退步案例",
+    "recall": "不看笔记解释“混合检索”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 24,
+    "week": 4,
+    "title": "查询构建",
+    "reading": "docs/chapter4",
+    "task": "将3个问题拆成语义查询和metadata过滤条件",
+    "recall": "不看笔记解释“查询构建”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 25,
+    "week": 4,
+    "title": "Text2SQL",
+    "reading": "docs/chapter4",
+    "task": "在本地小型SQLite样例库完成3个只读查询，核对SQL和结果",
+    "recall": "不看笔记解释“Text2SQL”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 26,
+    "week": 4,
+    "title": "查询改写",
+    "reading": "docs/chapter4",
+    "task": "改写3个含糊问题，检查是否保留原意并比较命中",
+    "recall": "不看笔记解释“查询改写”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 27,
+    "week": 4,
+    "title": "进阶检索",
+    "reading": "docs/chapter4",
+    "task": "运行重排序或教程其他进阶方法，比较证据名次",
+    "recall": "不看笔记解释“进阶检索”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 28,
+    "week": 4,
+    "title": "周复习",
+    "reading": "docs/chapter4",
+    "task": "分析3个失败例，区分数据、查询、排序问题",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 29,
+    "week": 5,
+    "title": "结构化输出",
+    "reading": "docs/chapter6",
+    "task": "阅读第五章，输出answer和sources字段，并检查缺字段或无效格式",
+    "recall": "不看笔记解释“结构化输出”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 30,
+    "week": 5,
+    "title": "引用核对",
+    "reading": "docs/chapter6",
+    "task": "为3个回答添加来源，逐一检查来源是否支持结论",
+    "recall": "不看笔记解释“引用核对”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 31,
+    "week": 5,
+    "title": "无答案问题",
+    "reading": "docs/chapter6",
+    "task": "提出3个资料不含答案的问题，记录拒答和编造情况",
+    "recall": "不看笔记解释“无答案问题”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 32,
+    "week": 5,
+    "title": "评估集",
+    "reading": "docs/chapter6",
+    "task": "整理15条问题、参考答案、证据ID，包含无答案样例",
+    "recall": "不看笔记解释“评估集”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 33,
+    "week": 5,
+    "title": "分环节评估",
+    "reading": "docs/chapter6",
+    "task": "分别统计检索命中、回答正确和忠于证据的人工评分",
+    "recall": "不看笔记解释“分环节评估”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 34,
+    "week": 5,
+    "title": "评估工具",
+    "reading": "docs/chapter6",
+    "task": "用教程工具跑3条样例，与人工判断对照；记录模型配置和调用成本",
+    "recall": "不看笔记解释“评估工具”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 35,
+    "week": 5,
+    "title": "周复习",
+    "reading": "docs/chapter6",
+    "task": "写一页评估报告，选出最需解决的问题",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 36,
+    "week": 6,
+    "title": "理解项目",
+    "reading": "docs/chapter8",
+    "task": "找到入口配置及模块，画调用关系",
+    "recall": "不看笔记解释“理解项目”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 37,
+    "week": 6,
+    "title": "数据准备",
+    "reading": "docs/chapter8",
+    "task": "用小数据运行项目数据准备模块，检查来源信息",
+    "recall": "不看笔记解释“数据准备”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 38,
+    "week": 6,
+    "title": "索引检索",
+    "reading": "docs/chapter8",
+    "task": "构建索引并单独输出证据，不调用生成模型",
+    "recall": "不看笔记解释“索引检索”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 39,
+    "week": 6,
+    "title": "生成集成",
+    "reading": "docs/chapter8",
+    "task": "跑通一次问答，显示回答和来源",
+    "recall": "不看笔记解释“生成集成”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 40,
+    "week": 6,
+    "title": "单因素优化",
+    "reading": "docs/chapter8",
+    "task": "只改一个检索参数，在固定评估集上比较",
+    "recall": "不看笔记解释“单因素优化”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 41,
+    "week": 6,
+    "title": "复现运行",
+    "reading": "docs/chapter8",
+    "task": "在新终端按自己的运行文档启动项目，记录缺失步骤",
+    "recall": "不看笔记解释“复现运行”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 42,
+    "week": 6,
+    "title": "周复习",
+    "reading": "docs/chapter8",
+    "task": "演示3个成功案例和1个失败案例，解释原因",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 43,
+    "week": 7,
+    "title": "关系建模",
+    "reading": "docs/chapter7",
+    "task": "从熟悉段落手工标注10条实体关系三元组",
+    "recall": "不看笔记解释“关系建模”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 44,
+    "week": 7,
+    "title": "小型知识图谱",
+    "reading": "docs/chapter7",
+    "task": "参考Neo4j扩展建立小图；服务失败先用JSON保存关系",
+    "recall": "不看笔记解释“小型知识图谱”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 45,
+    "week": 7,
+    "title": "图查询",
+    "reading": "docs/chapter7",
+    "task": "完成3个直接关系或两跳关系查询，核对结果",
+    "recall": "不看笔记解释“图查询”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 46,
+    "week": 7,
+    "title": "关系抽取",
+    "reading": "docs/chapter7",
+    "task": "比较模型提取与手工标注，记录遗漏和错误",
+    "recall": "不看笔记解释“关系抽取”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 47,
+    "week": 7,
+    "title": "图RAG流程",
+    "reading": "docs/chapter7",
+    "task": "运行小型示例，观察图证据如何进入提示词",
+    "recall": "不看笔记解释“图RAG流程”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 48,
+    "week": 7,
+    "title": "比较检索",
+    "reading": "docs/chapter7",
+    "task": "同一关系推理问题比较向量与图检索证据",
+    "recall": "不看笔记解释“比较检索”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 49,
+    "week": 7,
+    "title": "周复习",
+    "reading": "docs/chapter7",
+    "task": "写出图RAG适合和不适合的两类问题及维护成本",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 50,
+    "week": 8,
+    "title": "架构对比",
+    "reading": "docs/chapter9",
+    "task": "列出相较第八章新增的模块和目的",
+    "recall": "不看笔记解释“架构对比”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 51,
+    "week": 8,
+    "title": "图数据准备",
+    "reading": "docs/chapter9",
+    "task": "以小数据完成建模并查询验证关系",
+    "recall": "不看笔记解释“图数据准备”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 52,
+    "week": 8,
+    "title": "关联向量索引",
+    "reading": "docs/chapter9",
+    "task": "使用稳定ID关联向量与图数据，抽查3个ID",
+    "recall": "不看笔记解释“关联向量索引”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 53,
+    "week": 8,
+    "title": "查询路由",
+    "reading": "docs/chapter9",
+    "task": "记录5个问题的路由选择和预期选择",
+    "recall": "不看笔记解释“查询路由”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 54,
+    "week": 8,
+    "title": "完整流程",
+    "reading": "docs/chapter9",
+    "task": "运行混合查询，找出一个错误路由或证据选择",
+    "recall": "不看笔记解释“完整流程”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 55,
+    "week": 8,
+    "title": "项目比较",
+    "reading": "docs/chapter9",
+    "task": "同一评估集比较第八九章的效果耗时及复杂度",
+    "recall": "不看笔记解释“项目比较”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 56,
+    "week": 8,
+    "title": "周复习",
+    "reading": "docs/chapter9",
+    "task": "写出是否保留图检索的决定与实验证据",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 57,
+    "week": 9,
+    "title": "明确需求",
+    "reading": "docs/README.md",
+    "task": "检查第十章是否已发布；否则用学习笔记做项目并写10个真实问题",
+    "recall": "不看笔记解释“明确需求”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 58,
+    "week": 9,
+    "title": "准备自己的资料",
+    "reading": "docs/README.md",
+    "task": "清洗小份资料，说明切块策略，保留来源",
+    "recall": "不看笔记解释“准备自己的资料”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 59,
+    "week": 9,
+    "title": "建立个人索引",
+    "reading": "docs/README.md",
+    "task": "为自己的资料建立索引，验证3次检索",
+    "recall": "不看笔记解释“建立个人索引”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 60,
+    "week": 9,
+    "title": "问答与拒答",
+    "reading": "docs/README.md",
+    "task": "实现答案来源展示和证据不足处理",
+    "recall": "不看笔记解释“问答与拒答”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 61,
+    "week": 9,
+    "title": "有依据地优化",
+    "reading": "docs/README.md",
+    "task": "找评估中最差的一类问题，只改一个变量再比较",
+    "recall": "不看笔记解释“有依据地优化”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 62,
+    "week": 9,
+    "title": "小功能",
+    "reading": "docs/README.md",
+    "task": "加入元数据过滤或简单界面，给出一个操作示例",
+    "recall": "不看笔记解释“小功能”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 63,
+    "week": 9,
+    "title": "周复习",
+    "reading": "docs/README.md",
+    "task": "按README从新终端启动并完成演示",
+    "recall": "不看笔记解释“周复习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  },
+  {
+    "day": 64,
+    "week": 10,
+    "title": "闭卷重建",
+    "reading": "docs/README.md",
+    "task": "不看教程写最小RAG流程，再对照补全",
+    "recall": "不看笔记解释“闭卷重建”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 65,
+    "week": 10,
+    "title": "概念自测",
+    "reading": "docs/README.md",
+    "task": "解释10个概念，各举自己代码里的例子",
+    "recall": "不看笔记解释“概念自测”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 66,
+    "week": 10,
+    "title": "排错练习",
+    "reading": "docs/README.md",
+    "task": "在练习副本制造路径错误空检索及缺配置，记录定位过程",
+    "recall": "不看笔记解释“排错练习”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 67,
+    "week": 10,
+    "title": "复现实验",
+    "reading": "docs/README.md",
+    "task": "固定数据和问题重跑参数对比，保存配置和结果",
+    "recall": "不看笔记解释“复现实验”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 68,
+    "week": 10,
+    "title": "整理交付",
+    "reading": "docs/README.md",
+    "task": "写README环境说明配置示例，确认没有提交密钥或模型缓存",
+    "recall": "不看笔记解释“整理交付”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 69,
+    "week": 10,
+    "title": "项目演示",
+    "reading": "docs/README.md",
+    "task": "做5分钟演示，包含架构效果及局限",
+    "recall": "不看笔记解释“项目演示”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": false
+  },
+  {
+    "day": 70,
+    "week": 10,
+    "title": "最终复盘",
+    "reading": "docs/README.md",
+    "task": "列出已掌握待巩固及下一步，重做三道错题",
+    "recall": "不看笔记解释“最终复盘”涉及的一个核心概念。",
+    "explain": "写出输入、处理、输出；列出一个失败情况及判断依据。",
+    "review": true
+  }
+]
